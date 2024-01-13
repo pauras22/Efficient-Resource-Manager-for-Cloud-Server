@@ -1,0 +1,10 @@
+Dataset Details
+
+
+Link to Dataset:
+
+http://gwa.ewi.tudelft.nl/datasets/gwa-t-12-bitbrains
+
+The dataset includes performance metrics of 1,750 virtual machines (VMs) hosted in a distributed datacenter by Bitbrains, a service provider that specializes in managed hosting and business computation for enterprises such as major banks, credit card operators, and insurers. Bitbrains hosts solvency domain applications from vendors like Towers Watson and Algorithmics, which are commonly used for financial reporting at the end of financial quarters.
+Each file in the dataset contains performance metrics of a single VM, which are classified into two traces: fastStorage and Rnd. The fastStorage trace includes 1,250 VMs connected to high-performance storage area network (SAN) devices, while the Rnd trace includes 500 VMs connected to either fast SAN devices or slower Network Attached Storage (NAS) devices. The fastStorage trace contains a higher proportion of application servers and compute nodes, while the Rnd trace has more management machines that require lower-performance storage and less frequent access.
+The files in the Rnd trace are organized into three subdirectories based on the month in which the performance metrics were recorded. Each file in the dataset is row-based, with each row representing a single observation of the performance metrics. The columns in each row are separated by the “;\t” delimiter.
