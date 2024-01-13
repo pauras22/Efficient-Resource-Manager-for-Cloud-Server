@@ -12,7 +12,7 @@ Step 9:   Predict Future Resource Demand.
 Step 10: Plot Results
 
 
-3.4 Libraries
+Libraries :
 
 1.	Numpy 
 2.	Pandas
