@@ -1,6 +1,7 @@
 # Efficient-Resource-Manager-for-Cloud-Server
 
 Step 1:   Collecting Dataset.
+
 Step 2:   Feature Scaling using StandardScaler from sklearn.preprocessing library.
 Step 3:   Preparing the data to form input sequences that will be fed to LSTM model.
 Step 4:   Apply train-test split.
